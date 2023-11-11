@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: mohsen-deriv/learn-actions@v1 
+        uses: mohsen-deriv/learn-actions@v1.1 
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
